@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-size: 16px;
     font-family: Arial;
    
@@ -29,4 +29,16 @@ header nav .nav-right-section {
     margin-right: 100px;
     color:black;
     font-size: 25px;
+}
+
+.imagen {
+    display: flex;
+    margin-top: -9%;
+    height: 450px;
+}
+
+h1 {
+    font-family: 'Times New Roman';
+    margin-left: 200px;
+    text-align: left;
 }
