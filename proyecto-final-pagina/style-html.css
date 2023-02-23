@@ -62,6 +62,7 @@ header {
 
 .menu .navbar ul li a:hover {
     background-color: white;
+   
 }
 
 #menu {
@@ -70,6 +71,7 @@ header {
 
 .menu-icono {
     width: 25px;
+    cursor: pointer;
 }
 
 #menu {
@@ -251,7 +253,6 @@ footer {
 h4 {
     text-align: center;
     font-size: 40px;
-    margin-left: 80px;
 }
 
 .caso-de-exito p {
@@ -326,8 +327,8 @@ h4 {
 
     }
 
-    .caso-de-exito img {
-        margin-right: 60%;
+    .caso  {
+        margin-right: 70%;
         align-items: center;
 
 
@@ -342,6 +343,9 @@ h4 {
     .header-content p {
         margin-left: 150px;
 
-
     }
+
+}
+.video-responsivo {
+    margin-left: 350px;
 }
