@@ -7,11 +7,11 @@
     text-transform: capitalize;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 body {
-    background-image: url(/Imagenes/imagen-background-2.jpg);
-
+background-color: white;
 }
 
 header {
@@ -41,13 +41,15 @@ header {
 
 .menu .logo {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 15px;
     color: black;
 }
 
 .menu .navbar ul li {
     position: relative;
     float: left;
+    list-style: none;
+
 }
 
 .menu .navbar ul li a {
@@ -84,13 +86,14 @@ header {
 
 .header-content img {
     width: 300px;
-    border-radius: 50%;
+    border-radius: 60%;
 }
 
 .content {
     padding: 150px 150px 0px 0px;
 
 }
+
 
 .content h1 {
     color: black;
@@ -132,7 +135,7 @@ header {
 }
 
 .curriculum {
-    padding: 100px 0px;
+    padding: 50px 0px;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -166,10 +169,179 @@ header {
 }
 
 .empresas {
-    padding: 50px 0px;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.empresas h3 {
+    font-size: 45px;
+    color: black;
+    margin-bottom: 55px;
+}
+
+.empresas img{
+    margin-left: 80px;
+    width: 150px;
+}
+
+footer {
+    padding: 0px 0px 30px 0px;
     background-image: url(/Imagenes/imagen-background.jpg);
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+.redes-sociales{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.btn-3 {
+    display: inline-block;
+    background-color:#007bff;
+    margin: 35px 0px 0px 0px;
+    padding:25px 35px;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-bottom: -700px;
+    margin-left: 650px;
+
+}
+
+.formulario {
+    display: flex;
+    height: 550px;
+    width: 500px;
+    box-sizing: border-box;
+    border: 1px solid #d9d9d9;
+    color: black;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out;
+    border-radius: 20px;
+    padding: 50px 100px;
+  
+}
+
+.formulario h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.enlaces {
+    padding: 50px 50px;
+    justify-content: space-between;
+    display: flex
+}
+
+.caso-de-exito img {
+    padding: 20px 20px;
+    width: 400px;
+    padding: 80px 10px;
+    margin-left: 30%;
+    border-radius: 200px;
+    height: 500px;
+
+}
+
+h4 {
     text-align: center;
+    font-size: 40px;
+    margin-left: 80px;
+}
+
+.caso-de-exito p {
+    text-align: center;
+    padding: -0px 200px;
+    margin-top: -40px;
+}
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 20px;     
+    }
+    .menu label {
+        display:initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: white;
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+    
+    header {
+        height: 0vh;
+        padding: 400px 0px 340px 0px;
+        background-position: center center;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align:center;
+        align-items: center;
+        padding: 0px 30px;
+
+    }
+
+    .content {
+        padding: 0px;
+    }
+    .content h1 {
+        margin-top: 0px;
+        font-weight: 45px;
+    }
+    .content p {
+        margin-top: 0px;
+        width: 150px;
+        margin-left: 10px;
+    }
+    .curriculum {
+        flex-direction: column;
+        padding: 50px 30px 0px 30px;
+    }
+    .caso-de-exito {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px 80px 0px;
+        text-align: center;
+
+    }
+    .caso-de-exito p {
+        padding: 50px 30px 0px 30px;
+
+    }
+
+    .caso-de-exito img {
+        margin-right: 60%;
+        align-items: center;
+
+
+    }
+
+    .btn-3 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .header-content p {
+        margin-left: 150px;
+
+
+    }
 }
